@@ -14,6 +14,7 @@ import {
   Image,
   FlatList,
   TextInput,
+  ListViewComponent,
 } from 'react-native';
 import axios from 'axios';
 import Icon from 'react-native-vector-icons/FontAwesome';
@@ -122,7 +123,6 @@ const App = () => {
     </View>
     <Text style={{fontSize:20}}>{airCondition}</Text>
     </View>
-
     
     <View style={{flex:2}}>
     
